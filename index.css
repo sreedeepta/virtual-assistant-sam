@@ -16,4 +16,155 @@
     }
     .referer-warning h1 { font-size: 1.2rem; margin: 0; }
     .referer-warning a { color: #56bcf9; } /* $linkColorOnBlack */
+    html { font-size: 15px; }
+        html, body { margin: 0; padding: 0; min-height: 100%; }
+        body { height:100%; display: flex; flex-direction: column; }
+        .referer-warning {
+          background: black;
+          box-shadow: 0 2px 5px rgba(0,0,0, 0.5);
+          padding: 0.75em;
+          color: white;
+          text-align: center;
+          font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+          line-height: 1.2;
+          font-size: 1rem;
+          position: relative;
+          z-index: 2;
+        }
+        .referer-warning h1 { font-size: 1.2rem; margin: 0; }
+        .referer-warning a { color: #56bcf9; } /* $linkColorOnBlack */
+      </style>
+    </head>
+
+    <body class="">
+      <div id="result-iframe-wrap" role="main">
+
+        <iframe
+          id="result"
+          srcdoc="
+    <!DOCTYPE html>
+    <html lang=&quot;en&quot; >
+    <head>
+      <meta charset=&quot;UTF-8&quot;>
+
+    <link rel=&quot;apple-touch-icon&quot; type=&quot;image/png&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png&quot; />
+    <meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;CodePen&quot;>
+    <link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico&quot; />
+    <link rel=&quot;mask-icon&quot; type=&quot;&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg&quot; color=&quot;#111&quot; />
+      <title>Trek | Virtual-assistant</title>
+
+
+
+
+    <style>
+    html,body 
+    {
+        padding:0;
+        margin:0;
+        max-width:100%;
+        user-select:none;
+        -ms-user-select:none;
+        -moz-user-select:none;
+        -webkit-user-select:none;
+       background-color:#4ec2ae;
+
+    }
+    #h{
+      Color:#fff;
+      Border-radius:5px;
+      Color
+      }
+    .shadow
+    {
+
+     -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+
+       box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); 
+
+       }
+    .nice-font
+    {
+        font-family:'Josefin Sans',sans-serif;
+    }
+    header
+    {
+          text-align:center;
+    }
+    main
+    {
+        padding:10px;
+        margin-bottom:50px;
+    }
+    footer #command
+    {
+        position:fixed;
+        bottom:0;
+        width:100%;
+        padding:7px 7px;
+        padding-right:7px;
+        margin-bottom:5px;
+        border-radius:30px;
+        border:0.5px solid #9e9e9e50;
+        -ms-box-sizing:border-box;
+        box-sizing:border-box ;
+        background-color:#fff;
+
+    }
+    #command input
+    {
+        display:block;
+        width:73%;
+        float:left;
+
+    }
+    #command input,#command button
+    {
+
+        padding:10px 15px;
+        border:0;
+        outline:0;
+    }
+    button
+    {
+        background-color:#1e88e5;
+        color:#fff;
+        border-radius:20px;
+        font-weight:300;
+        float:right;
+
+
+     }
+
+     .row
+     {
+         width:100%;
+         margin-bottom:10px;
+         display:block;
+     }
+     .row::after{
+          content: &quot;&quot;;
+        display: table;
+        clear: both;
+     }
+
+    .chat
+    {
+        border:0;
+        word-wrap:break-word;
+        background-color:#fff;
+        border-radius:30px;
+        color:#111;
+        padding:10px 20px;
+        display:inline-block  
+    }
+    .question
+    {
+        float:right;
+        background-color:#1e88e5;
+        color:#fff;
+    }
+    .answer
+    {
+        float:left;
+    }
   </style>
